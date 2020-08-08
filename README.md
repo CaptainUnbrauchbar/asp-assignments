@@ -1,4 +1,4 @@
-# asp-assignments
+# ASP-Assignments (Answer Set Programming)
 
 Assignments from Computational Intelligence Course
 
