@@ -1,0 +1,42 @@
+The instructions given in the following are meant to provide a roadmap for a
+hands-on introduction to the ASP system clingo <https://potassco.org/clingo/>.
+
+The clingo system is available on Linux machines in the computer pool room
+03.04.0.03-0.04 of the Institute for Informatics/Computational Science, under
+this filename:
+
+  /home/flaferriere/PUBLIC/clingo
+
+Note that clingo is command-line based and invoked in a shell, where we below
+assume that bash is used. To see whether clingo is ready to run, please try
+invoking this command in the shell:
+
+  /home/flaferriere/PUBLIC/clingo --version
+
+If you see version information output by clingo, you are basically ready to
+start, yet it may be convenient to launch clingo without typing the full path
+all the time. To this end, consider setting up your PATH environment variable
+as follows:
+
+  export PATH=$PATH:/home/flaferriere/PUBLIC/
+
+You may also insert this line into some configuration file that is loaded each
+time a shell is opened, e.g., the
+
+  ~/.profile
+
+file. If needed, you can (re)load such a file within a shell with the command:
+
+  source ~/.profile
+
+When you are set up to run clingo, take a look at the logic program files from
+this archive in the following order:
+
+(1) See the facts and comments in the (instance) file triangle.lp.
+(2) Open the (encoding) file color.lp and follow the TODO items in comments.
+(3) Open the (encoding) file cycle.lp and follow the TODO items in comments.
+(4) Open the (encoding) file latin.lp and follow the TODO items in comments.
+
+It is also worthwhile to take a look at the Basic Modeling slides
+<http://www.cs.uni-potsdam.de/~torsten/Potassco/Slides/modeling.pdf> that
+provide additional information and illustration of modeling problems in ASP.
