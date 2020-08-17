@@ -1,7 +1,5 @@
 % INSERT NAMES AND EMAIL ADDRESSES OF YOUR GROUP MEMBERS:
-%Luise Strietzel
-%Nico Manthey
-%Neele Kinkel
+%
 
 % cell(1,1).
 
